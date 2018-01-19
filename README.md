@@ -1,16 +1,3 @@
-PyTeaser
-========
-
-PyTeaser takes any news article and extract a brief summary from it. It's based on the original [Scala](https://github.com/MojoJolo/textteaser) project.
-
-
-Summaries are created by ranking sentences in a news article according to how relevant they are to the entire text. The top 5 sentences are used to form a "summary". Each sentence is ranked by using four criteria:
-
-- Relevance to the title
-- Relevance to keywords in the article
-- Position of the sentence
-- Length of the sentence
-
 
 # Installation:
 Requires Python 2.7. (Need Collections.Counter)
@@ -31,8 +18,6 @@ Note: if you're installing on Windows, you have to install one of the dependency
 ```
 easy_install lxml==2.3.3
 ```
-
-More information about this issue here: https://github.com/xiaoxu193/PyTeaser/issues/17
 
 
 # Usage:
